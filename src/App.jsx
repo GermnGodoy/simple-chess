@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div
-    className="w-screen h-screen flex justify-center flex-row items-center align-middle bg-[#f4f6fc] pb-10 pt-3">
+    className="w-screen h-screen flex justify-center flex-row items-center align-middle bg-egg pb-10 pt-3">
       <main className=" h-full flex flex-row m-5 mx-0 p-0">
         <Board board={board} setTurn={setTurn} turn={turn} setBoard={setBoard}/>
         <TurnLED turn = {turn}/>

@@ -11,11 +11,11 @@ export function GamePanel({setBoard, setTurn, setMode}) {
 
   return (
     <div 
-      className=' bg-[#343a44] w-[20%] rounded-lg flex flex-col p-3 items-center h-full m-5 mt-12'>
+      className=' bg-dark w-[20%] rounded-lg flex flex-col p-3 items-center h-full m-5 mt-12'>
       <h1 className=" text-8xl font-bold m-5 mb-9">Simple Chess</h1>
-      <div className=" bg-[#141517] w-full flex flex-col items-center justify-center h-[10rem] rounded-lg">
+      <div className=" bg-darker w-full flex flex-col items-center justify-center h-[10rem] rounded-lg">
         <button onClick={()=>setLocalMatch()} 
-          className=" bg-[#b7bece] hover:bg-[#e4e7f4] w-[26.5rem] flex justify-center items-center flex-col rounded-lg h-[5.3rem] gap-2 font-bold text-4xl text-[#141517]">
+          className=" bg-light hover:bg-lighter w-[26.5rem] flex justify-center items-center flex-col rounded-lg h-[5.3rem] gap-2 font-bold text-4xl text-[#141517]">
           Local Match 
         </button>
       </div>

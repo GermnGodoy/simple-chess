@@ -1,9 +1,9 @@
 const boardCellWidth = 'w-full aspect-square'
 
 export const BOARD_CELL_STYLES = {
-  cursor: `bg-emerald-600/40 ${boardCellWidth} text-center justify-center flex items-center font-bold text-xl`,
-  white: `bg-[#f4f6fc] hover:bg-[#e0e3ef] ${boardCellWidth} text-center justify-center flex items-center font-bold text-xl`,
-  black: `bg-[#8c9ab3] hover:bg-[#a4b3ce] ${boardCellWidth} text-center justify-center flex items-center font-bold text-xl`
+  cursor: ` bg-emerald-400/50 ${boardCellWidth} text-center justify-center flex items-center font-bold text-xl`,
+  white: `bg-egg hover:bg-egger ${boardCellWidth} text-center justify-center flex items-center font-bold text-xl`,
+  black: `bg-faisan hover:bg-faisanner ${boardCellWidth} text-center justify-center flex items-center font-bold text-xl`
 }
 
 export const SIZES = {
